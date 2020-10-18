@@ -19,7 +19,7 @@ body {
   font-family: Open Sans;
   font-size: 16px;
   position: relative;
-  height: 100vh;
+  min-height: 100vh;
   font-weight: 400;
 }
 
@@ -90,8 +90,9 @@ body {
 .budget__expenses--text {
   float: left;
   font-size: 13px;
-  color: #444;
+  color: #fff;
   margin-top: 2px;
+  font-weight: bold;
 }
 
 .budget__income--value,
@@ -205,7 +206,7 @@ body {
 /***** LISTS *****/
 .container {
   max-width: 1000px;
-  margin: 60px auto;
+  margin: 60px auto 0;
   display: flex;
   flex-wrap: wrap;
   padding: 0 25px;
@@ -231,6 +232,7 @@ h2 {
   font-size: 18px;
   font-weight: 400;
   margin-bottom: 15px;
+  font-weight: bold;
 }
 
 .icome__title {
@@ -327,4 +329,9 @@ h2 {
 }
 .unpaid:hover .item__description {
   font-weight: 900;
+}
+@media all and (max-width: 692px) {
+  .container {
+    flex-direction: column;
+  }
 }
