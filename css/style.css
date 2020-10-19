@@ -39,7 +39,7 @@ body {
 
 .top {
   height: 40vh;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.35)),
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.35)),
     url(../img/back.png);
   background-size: cover;
   background-position: bottom;
@@ -59,7 +59,7 @@ body {
   font-size: 18px;
   text-align: center;
   margin-bottom: 10px;
-  font-weight: 300;
+  font-weight: normal;
 }
 
 .budget__value {
